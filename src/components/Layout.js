@@ -39,8 +39,16 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.banqee.com/assets/css/vendor-min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.banqee.com/assets/css/banqee-min.css">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.banqee.com/assets/css/vendor-min.css"
+    />
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.banqee.com/assets/css/banqee-min.css"
+    />
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
@@ -56,8 +64,14 @@ const TemplateWrapper = ({ children }) => {
       <Footer />
       </main>
 
-    <script type="text/javascript" src="https://cdn.banqee.com/assets/js/lib.min.js"></script>
-    <script type="text/javascript" src="https://cdn.banqee.com/assets/js/banqee.min.js"></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.banqee.com/assets/js/lib.min.js"
+    />
+    <script
+    type="text/javascript"
+    src="https://cdn.banqee.com/assets/js/banqee.min.js"
+    />
 
     </div>
   )
