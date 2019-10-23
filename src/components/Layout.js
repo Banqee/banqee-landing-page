@@ -40,6 +40,14 @@ const TemplateWrapper = ({ children }) => {
         />
         <link
           rel="stylesheet"
+          href={`${withPrefix('/')}css/vendor-min.css`}
+        />
+        <link
+          rel="stylesheet"
+          href={`${withPrefix('/')}css/banqee-min.css`}
+        />
+        <link
+          rel="stylesheet"
           href="https://cdn.banqee.com/assets/css/vendor-min.css"
         />
         <link
@@ -62,11 +70,11 @@ const TemplateWrapper = ({ children }) => {
       <Footer />
       </main>
       <script
-      src="https://cdn.banqee.com/assets/js/lib.min.js">
-      </script>
+        src={`${withPrefix('/')}js/lib.min.js`}
+      />
       <script
-      src="https://cdn.banqee.com/assets/js/banqee.min.js">
-      </script>
+        src={`${withPrefix('/')}js/banqee.min.js`}
+      />
     </div>
   )
 }
