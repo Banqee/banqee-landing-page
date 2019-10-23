@@ -10,104 +10,79 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
+      <footer className="site-footer section block bg-contrast">
+          <div className="container py-4">
+          <div className="row align-items-center">
+        <div className="col-md-3 text-center text-md-left">
+          <span><img
             src={logo}
             alt="Banqee"
             style={{ width: '14em', height: '10em' }}
-          />
+          /></span>
+          <span><p className="mt-2 mb-0 text-secondary small">© 2019 Banqee. All Rights Reserved</p></span>
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
+        <div className="col-md-4 text-center">
+        <a title="facebook" href="https://facebook.com">
+          <img
+            src={facebook}
+            alt="Facebook"
+            style={{ width: '1em', height: '1em' }}
+          />
+        </a>
+        <a title="twitter" href="https://twitter.com">
+          <img
+            className="fas fa-lg"
+            src={twitter}
+            alt="Twitter"
+            style={{ width: '1em', height: '1em' }}
+          />
+        </a>
+        <a title="instagram" href="https://instagram.com">
+          <img
+            src={instagram}
+            alt="Instagram"
+            style={{ width: '1em', height: '1em' }}
+          />
+        </a>
+        <a title="vimeo" href="https://vimeo.com">
+          <img
+            src={vimeo}
+            alt="Vimeo"
+            style={{ width: '1em', height: '1em' }}
+          />
+        </a>
+
+        </div>
+      <div className="col-md-5 text-center text-md-right">
+                  <nav className="nav justify-content-center justify-content-md-start">
+                    <Link to="/" className="nav-item nav-link">
                         Home
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
+                      <Link className="nav-item nav-link" to="/about">
                         About
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
+                      <Link className="nav-item nav-link" to="/products">
                         Products
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
+                      <Link className="nav-item nav-link" to="/contact/examples">
+                       Examples
                       </Link>
-                    </li>
-                    <li>
                       <a
-                        className="navbar-item"
+                        className="nav-item nav-link"
                         href="/admin/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         Admin
                       </a>
-                    </li>
-                  </ul>
-                </section>
+                  </nav>
               </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
+
+
               </div>
             </div>
-          </div>
-        </div>
       </footer>
+      </main>
     )
   }
 }
