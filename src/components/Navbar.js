@@ -88,7 +88,7 @@ const Navbar = class extends React.Component {
         >
           <i className="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2">
           </i>
-          <span className="d-md-none d-lg-inline">Login  <span />
+          <span className="d-md-none d-lg-inline">Login  </span>
         </a>
               <a
                 className="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"
@@ -104,11 +104,11 @@ const Navbar = class extends React.Component {
             <li className="st-nav-section st-nav-mobile nav-item">
             <button className="st-root-link navbar-toggler" type="button">
             <span className="icon-bar">
-              <span />
+              </span>
             <span className="icon-bar">
-              <span />
+              </span>
             <span className="icon-bar">
-              <span />
+              </span>
             </button>
             <div className="st-popup">
             <div className="st-popup-container">
