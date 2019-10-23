@@ -40,10 +40,12 @@ const TemplateWrapper = ({ children }) => {
         />
         <link
           rel="stylesheet"
-          href={`${withPrefix('/')}css/vendor-min.png`}
+          type="text/css"
+          href={`${withPrefix('/')}css/vendor-min.css`}
         />
         <link
           rel="stylesheet"
+          type="text/css"
           href={`${withPrefix('/')}css/banqee-min.css`}
         />
         <meta name="theme-color" content="#fff" />
