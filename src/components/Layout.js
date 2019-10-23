@@ -38,24 +38,10 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
-        <link
-          rel="stylesheet"
-          href={`${withPrefix('/')}assets/css/vendor-min.css`}
-        />
-        <link
-          rel="stylesheet"
-          href={`${withPrefix('/')}assets/css/banqee-min.css`}
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdn.banqee.com/assets/css/vendor-min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdn.banqee.com/assets/css/banqee-min.css"
-        />
-        <meta name="theme-color" content="#fff" />
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.banqee.com/assets/css/vendor-min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.banqee.com/assets/css/banqee-min.css">
+        <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
@@ -69,12 +55,10 @@ const TemplateWrapper = ({ children }) => {
       <div>{children}</div>
       <Footer />
       </main>
-      <script
-        src={`${withPrefix('/')}assets/js/lib.min.js`}
-      />
-      <script
-        src={`${withPrefix('/')}assets/js/banqee.min.js`}
-      />
+
+    <script type="text/javascript" src="https://cdn.banqee.com/assets/js/lib.min.js"></script>
+    <script type="text/javascript" src="https://cdn.banqee.com/assets/js/banqee.min.js"></script>
+
     </div>
   )
 }
