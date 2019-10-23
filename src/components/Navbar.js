@@ -154,7 +154,6 @@ const Navbar = class extends React.Component {
             </li>
         </ul>
           </div>
-        </div>
       </nav>
     )
   }
