@@ -6,7 +6,7 @@ export const HTMLContent = ({ content, className }) => (
 )
 
 const Content = ({ content, className }) => (
-  <main><div className={className}>{content}</div></main>
+  <div className={className}>{content}</div>
 )
 
 Content.propTypes = {

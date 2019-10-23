@@ -59,8 +59,16 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
+      <main>
       <div>{children}</div>
       <Footer />
+      </main>
+      <script
+      src="{`${withPrefix('/')}js/lib.min.js`}">
+      </script>
+      <script
+      src="{`${withPrefix('/')}js/banqee.min.js`}">
+      </script>
     </div>
   )
 }
