@@ -12,17 +12,8 @@ const Footer = class extends React.Component {
     return (
       <footer className="site-footer section bg-contrast">
       <div className="bg-darker">
-          <div className="container py-4">
-          <div className="row align-items-center">
-        <div className="col-md-3 text-center text-md-left">
-          <span><img
-            src={logo}
-            alt="Banqee"
-            style={{ width: '14em', height: '10em' }}
-          /></span>
-          <span><p className="mt-2 mb-0 text-secondary small">© 2019 Banqee. All Rights Reserved</p></span>
-        </div>
-        <div className="col-md-4 text-center">
+          <div className="container text-center py-4">
+          <nav className="nav justify-content-center my-4">
         <a title="facebook" href="https://facebook.com">
           <img
             src={facebook}
@@ -52,10 +43,77 @@ const Footer = class extends React.Component {
             style={{ width: '1em', height: '1em' }}
           />
         </a>
-
+</nav>
+      </div>
         </div>
-      <div className="col-md-5 text-center text-md-right">
-                  <nav className="nav justify-content-center justify-content-md-start">
+      <div className="container py-4">
+      <div className="row gap-y">
+       <div className="col-md-4">
+          <span>
+      <img
+            src={logo}
+            alt="Banqee"
+            style={{ width: '14em', height: '10em' }}
+          />
+      </span>
+          <span>
+      <p 
+      className="mt-2 mb-0 text-secondary small"
+      >
+      © 2019 Banqee. All Rights Reserved
+      </p>
+      </span>
+        </div>
+      <div
+      className="col-md-4"
+      >
+      <h6 
+      className="bold"
+      >
+      Your Office
+      </h6>
+      <p 
+      className="text-secondary"
+      >
+      Lorem ipsum dolor sit amet, consectetur elit. Blanditiis commodi expedita, odit officiis?
+      </p>
+      <nav 
+      className="nav flex-column small"
+      >
+      <div 
+      className="d-flex align-items-center"
+      >
+      <i 
+      className="fas fa-map-marker mr-2"
+      >
+      </i> 
+      5700 Yonge Street St, Your City, YC USA
+      </div>
+      <div className="
+      mt-2 d-flex align-items-center"
+      >
+      <i 
+      className="fas fa-phone mr-2"
+      >
+      </i> 
+      (123) 456-7890
+    </div>
+    <div 
+    className="mt-2 d-flex align-items-center"
+    >
+    <i 
+    className="fas fa-envelope mr-2"
+    >
+    </i> 
+    <Link to="mailto:hello@banqee.com">
+      hello@banqee.com
+      </Link>
+      </div>
+      </nav>
+      </div>
+                  <nav 
+      className="nav justify-content-center justify-content-md-start"
+                   >
                     <Link to="/" className="nav-item nav-link">
                         Home
                       </Link>
@@ -78,9 +136,32 @@ const Footer = class extends React.Component {
                       </a>
                   </nav>
               </div>
+      <hr>
+      <nav className="nav small">
+      
+          <Link to="/privacy-policy" className="text-secondary mr-3">
+                        Privacy
+                      </Link>
+                      <Link className="text-secondary mr-3" to="/terms-and-conditions">
+                       Terms
+                      </Link>
+                      <Link className="text-secondary mr-3" to="/security">
+                       Security
+                      </Link>
+                      <Link className="text-secondary mr-3" to="/status">
+                       Status
+                      </Link>
+                      <a
+                        className="text-secondary"
+                        href="/admin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Admin
+                      </a>
+         </nav>
+      </div>
 
-
-              </div>
             </div>
       </div>
       </footer>
