@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
+import logo from '../img/logo.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -10,7 +10,8 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="site-footer section block bg-contrast">
+      <footer className="site-footer section bg-contrast">
+      <div className="bg-darker">
           <div className="container py-4">
           <div className="row align-items-center">
         <div className="col-md-3 text-center text-md-left">
@@ -81,6 +82,7 @@ const Footer = class extends React.Component {
 
               </div>
             </div>
+      </div>
       </footer>
     
     )
