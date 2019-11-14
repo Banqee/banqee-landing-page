@@ -1,14 +1,3 @@
-/**
- * Swiper 4.5.0
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://www.idangero.us/swiper/
- *
- * Copyright 2014-2019 Vladimir Kharlampidi
- *
- * Released under the MIT License
- *
- * Released on: February 22, 2019
- */
 .swiper-container {
   margin: 0 auto;
   position: relative;
@@ -617,10 +606,6 @@ button.swiper-pagination-bullet {
   -ms-perspective: 1200px;
 }
 
-/*!
- * Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 .fa,
 .fas,
 .far,
@@ -806,8 +791,6 @@ button.swiper-pagination-bullet {
 .fa-inverse {
   color: #fff; }
 
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-readers do not read off random characters that represent icons */
 .fa-500px:before {
   content: "\f26e"; }
 
@@ -5014,19 +4997,6 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
-/*!
- * SmartWizard v4.3.x
- * jQuery Wizard Plugin
- * http://www.techlaboratory.net/smartwizard
- *
- * Created by Dipu Raj
- * http://dipuraj.me
- *
- * Licensed under the terms of MIT License
- * https://github.com/techlab/SmartWizard/blob/master/LICENSE
- */
-
-/* SmartWizard Basic CSS */
 .sw-main {
     position: relative;
     display: block;
@@ -5169,14 +5139,13 @@ readers do not read off random characters that represent icons */
     cursor: not-allowed;
 }
 
-/* Responsive CSS */
+
 @media screen and (max-width: 768px) {
     .sw-theme-default > .nav-tabs > li {
         float: none !important;
     }
 }
 
-/* Common Loader */
 .sw-loading::after {
     position: absolute;
     display: block;
@@ -5207,11 +5176,9 @@ readers do not read off random characters that represent icons */
     margin-top: -40px;
     margin-left: -40px;
     -webkit-animation: spin 1s linear infinite;
- /* Safari */
     animation: spin 1s linear infinite;
 }
 
-/* Safari */
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -5234,19 +5201,6 @@ readers do not read off random characters that represent icons */
     }
 }
 
-/*!
- * SmartWizard v4.3.x
- * jQuery Wizard Plugin
- * http://www.techlaboratory.net/smartwizard
- *
- * Created by Dipu Raj
- * http://dipuraj.me
- *
- * Licensed under the terms of MIT License
- * https://github.com/techlab/SmartWizard/blob/master/LICENSE
- */
-
-/* SmartWizard Theme: Arrows */
 .sw-theme-arrows {
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -5396,7 +5350,7 @@ readers do not read off random characters that represent icons */
     color: #eee !important;
 }
 
-/* Responsive CSS */
+
 @media screen and (max-width: 768px) {
     .sw-theme-arrows > ul.step-anchor {
         border: 0;
@@ -5560,19 +5514,6 @@ readers do not read off random characters that represent icons */
     color: #eee !important;
 }
 
-/*!
- * SmartWizard v4.3.x
- * jQuery Wizard Plugin
- * http://www.techlaboratory.net/smartwizard
- *
- * Created by Dipu Raj
- * http://dipuraj.me
- *
- * Licensed under the terms of MIT License
- * https://github.com/techlab/SmartWizard/blob/master/LICENSE
- */
-
-/* SmartWizard Theme: Dots */
 .sw-theme-dots {
 }
 
@@ -5697,7 +5638,7 @@ readers do not read off random characters that represent icons */
 .sw-theme-dots > ul.step-anchor > li.active > a:after {
     background: #5bc0de;
 }
-/* Done anchors */
+
 .sw-theme-dots > ul.step-anchor > li.done > a {
     color: #5cb85c;
 }
@@ -5705,7 +5646,7 @@ readers do not read off random characters that represent icons */
 .sw-theme-dots > ul.step-anchor > li.done > a:after {
     background: #5cb85c;
 }
-/* Danger anchors */
+
 .sw-theme-dots > ul.step-anchor > li.danger > a {
     color: #d9534f;
 }
@@ -5762,16 +5703,6 @@ readers do not read off random characters that represent icons */
     }
 }
 
-/*!
- * 
- *         SimpleBar.js - v2.6.1
- *         Scrollbars, simpler.
- *         https://grsmto.github.io/simplebar/
- *         
- *         Made by Adrien Grsmto from a fork by Jonathan Nicol
- *         Under MIT License
- *       
- */
 [data-simplebar] {
     position: relative;
     z-index: 0;
@@ -5832,8 +5763,7 @@ readers do not read off random characters that represent icons */
 
 .simplebar-track:hover .simplebar-scrollbar:before,
 .simplebar-track .simplebar-scrollbar.visible:before {
-    /* When hovered, remove all transitions from drag handle */
-    opacity: 0.5;
+      opacity: 0.5;
     -webkit-transition: opacity 0 linear;
     transition: opacity 0 linear;
 }
