@@ -14,7 +14,7 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <base href="/">
+        <base href={`${withPrefix('/')}`} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
