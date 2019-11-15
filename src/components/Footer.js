@@ -173,7 +173,6 @@ const Footer = class extends React.Component {
       We sent you an email with a link to get started. You’ll be in your account in no time.
     </p>
     </div>
-      </div>
                 
       <hr />
       <nav className="nav small">
