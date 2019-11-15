@@ -188,10 +188,8 @@ export const IndexPageTemplate = ({
   >
   <div className="iphone-x light front">
   <div className="screen shadow-box">
-  
-<Image publicId="Banqee/iphone-display.png" >
-
-</Image>
+  <Image cloudName="everpay" publicId="Banqee/iphone-display.png" crop="scale"/>
+  </Image>
   </div>
   <div 
   className="notch"
