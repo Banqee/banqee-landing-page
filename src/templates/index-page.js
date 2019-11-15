@@ -119,15 +119,27 @@ export const IndexPageTemplate = ({
   </span>
   <h1 
   className="display-4 display-md-2 mt-3"
+  style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
   >
   <span 
   className="bold"
   >
-  Banqee
+   {title}
   </span>
   </h1>
   <p 
   className="lead bold text-primary"
+  style={{
+            color: 'blue',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
   >
   Premium Startup &amp; 
   <span 
@@ -138,8 +150,13 @@ export const IndexPageTemplate = ({
   </p>
   <p 
   className="lead"
+    style={{
+            color: 'blue',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
   >
-  Besides its beautiful design. DashCore is an incredibly rich core framework for you to showcase your App.
+   {subheading}
   </p>
   <div 
   className="hero-form shadow-lg"
@@ -175,10 +192,7 @@ export const IndexPageTemplate = ({
   <div 
   className="screen shadow-box"
   >
-  <img 
-  src="../img/iphone-display.png" 
-  alt=""
-  >
+  
   </div>
   <div 
   className="notch"
