@@ -200,7 +200,8 @@ const Footer = class extends React.Component {
                       </a>
          </nav>
       </div>
-      </footer>
+  </footer>
+     </main>
     
     )
   }
