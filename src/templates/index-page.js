@@ -7,7 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
-  image,
+
   title,
   heading,
   subheading,
@@ -188,14 +188,7 @@ export const IndexPageTemplate = ({
   >
   <div className="iphone-x light front">
   <div className="screen shadow-box">
- <div style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top right`,
-        backgroundAttachment: `fixed`,
-      }}
-    ></div>
+
   </div>
   <div 
   className="notch"
