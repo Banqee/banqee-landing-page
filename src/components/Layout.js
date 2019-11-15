@@ -39,16 +39,18 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
 
-    <link
-    rel="stylesheet"
-    type="text/css"
-    href={`${withPrefix('/')}assets/css/vendor-min.css`}
-    />
-    <link
-    rel="stylesheet"
-    type="text/css"
-    href={`${withPrefix('/')}assets/css/banqee-min.css`}
-    />
+        <link
+          rel="stylesheet"
+          href={`${withPrefix('/')}assets/css/vendor-min.css`}
+          type="text/css"
+        />
+
+       <link
+        rel="stylesheet"
+        href={`${withPrefix('/')}assets/css/banqee-min.css`}
+        type="text/css"
+        />
+
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
