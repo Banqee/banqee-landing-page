@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
-import './custom.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
@@ -40,15 +39,16 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
 
-        <link
-          rel="stylesheet"
-          href={`${withPrefix('/')}assets/css/vendor-min.css`}
-        >
-
-        <link
-          rel="stylesheet"
-          href={`${withPrefix('/')}assets/css/banqee-min.css`}
-        >
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href={`${withPrefix('/')}assets/css/vendor-min.css`}
+    />
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href={`${withPrefix('/')}assets/css/banqee-min.css`}
+    />
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
@@ -58,7 +58,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-     <Navbar />
+      <Navbar />
       <main>
       {children}
       <Footer />
@@ -67,12 +67,13 @@ const TemplateWrapper = ({ children }) => {
     <script
     type="text/javascript"
     src={`${withPrefix('/')}assets/js/lib.min.js`}
-    >
+    />
     <script
     type="text/javascript"
     src={`${withPrefix('/')}assets/js/banqee.min.js`}
-    >
+    />
 
+    </div>
   )
 }
 
