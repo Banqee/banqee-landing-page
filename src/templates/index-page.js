@@ -15,176 +15,55 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <header 
-  className="header app-landing-2-header section"
-  >
-  <div 
-  className="shapes-container"
-  >
-  <div 
-  className="shape shape-animated aos-init aos-animate" 
-  data-aos="fade-down-right" 
-  data-aos-duration="1500" 
-  data-aos-delay="100"
-  >
-  </div>
-  <div className="shape shape-animated aos-init aos-animate" 
-  data-aos="fade-down" 
-  data-aos-duration="1000" 
-  data-aos-delay="100"
-  >
-  </div>
-  <div 
-  className="shape shape-animated aos-init aos-animate" 
-  data-aos="fade-up-left" 
-  data-aos-duration="500" 
-  data-aos-delay="200"
-  >
-  </div>
-  <div 
-  className="shape shape-animated aos-init aos-animate" 
-  data-aos="fade-up" 
-  data-aos-duration="500" 
-  data-aos-delay="200"
-  >
-  </div>
-  
-  <div 
-  className="animation-shape shape-triangle"
-  >
-  <div 
-  className="animation--rotating"
-  >
-  </div>
-  </div>
-  <div 
-  className="animation-shape shape-cross"
-  >
-  <div 
-  className="animation--rotating"
-  >
-  </div>
-  </div>
-   <div 
-  className="static-shape shape-ring shape-ring-1"
->
-  <div
-  className="animation animation--rotating"
-  >
-  </div>
-  </div>
-  <div 
-  className="static-shape shape-ring shape-ring-2"
-  >
-  <div 
-  className="animation animation--rotating-clockwise"
-  >
-  </div>
-  </div>
-  <div 
-  className="static-shape pattern-dots-1"
-  >
-  </div>
-  <div 
-  className="static-shape pattern-dots-2"
-  >
-  </div>
-  <div 
-  className="static-shape background-shape-main"
-  >
-  </div>
-  </div>
-  <div 
-  className="container"
-  >
-  <div 
-  className="row align-items-center gap-y"
-  >
-  <div 
-  className="col-md-6"
-  >
-  <span 
-  className="rounded-pill shadow-box bg-contrast text-dark bold py-2 px-4"
-  >
-  <i 
-  className="far fa-lightbulb text-primary mr-2"
-  >
-  </i> 
-  <span 
-  className="text-primary">
-  Awesome
-  </span> 
-  Landing Page
-  </span>
-  <h1 
-  className="display-4 display-md-2 mt-3 is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
-    style={{
+  <div>
+    <div
+      className="full-width-image margin-top-0"
+      style={{
+        backgroundImage: `url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,
+        backgroundPosition: `top left`,
+        backgroundAttachment: `fixed`,
+      }}
+    >
+      <div
+        style={{
           display: 'flex',
-          height: '80px',
+          height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
         }}
       >
-        {title}
-        </h1>
-        <p
-          className="lead bold text-primary is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+        <h1
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
+          {title}
+        </h1>
+        <h3
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
         >
           {subheading}
-        </p>
-    <div 
-  className="hero-form shadow-lg"
-  >
-  <form 
-  action="https://api.banqee.com/v1/register.php" 
-  novalidate="novalidate"
-  >
-  <div 
-  className="input-group"
-  >
-  <input 
-  type="text" 
-  className="form-control" 
-  placeholder="Your Email"
-  > 
-  <button 
-  type="submit" 
-  className="btn btn-primary more-link"
-  >
-  Subscribe Now
-  </button>
-  </div>
-  </form>
-  </div>
-  </div>
-  <div 
-  className="col-md-6"
-  >
-  <div className="iphone-x light front">
-  <div className="screen shadow-box"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top right`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-</div>
-  <div className="notch"></div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </header>
-
+        </h3>
+      </div>
+    </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
