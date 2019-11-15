@@ -66,11 +66,11 @@ const TemplateWrapper = ({ children }) => {
     <script
     type="text/javascript"
     src={`${withPrefix('/')}assets/js/lib.min.js`}
-    />
+    >
     <script
     type="text/javascript"
     src={`${withPrefix('/')}assets/js/banqee.min.js`}
-    />
+    >
 
   )
 }
