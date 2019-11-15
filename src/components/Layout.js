@@ -40,13 +40,11 @@ const TemplateWrapper = ({ children }) => {
         />
 
         <link
-          rel="stylesheet"
           href={`${withPrefix('/')}assets/css/vendor-min.css`}
           type="text/css"
         />
 
        <link
-        rel="stylesheet"
         href={`${withPrefix('/')}assets/css/banqee-min.css`}
         type="text/css"
         />
