@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Image } from 'cloudinary'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
@@ -188,7 +188,9 @@ export const IndexPageTemplate = ({
   >
   <div className="iphone-x light front">
   <div className="screen shadow-box">
+<Image publicId="Banqee/iphone-display.png" >
 
+</Image>
   </div>
   <div 
   className="notch"
