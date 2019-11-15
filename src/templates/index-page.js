@@ -176,7 +176,7 @@ export const IndexPageTemplate = ({
   className="screen shadow-box"
   >
   <img 
-  src="img/screens/app/4.png" 
+  src="../img/iphone-display.png" 
   alt=""
   >
   </div>
