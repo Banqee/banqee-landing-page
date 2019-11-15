@@ -15,7 +15,16 @@ const TemplateWrapper = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
         <base href={`${withPrefix('/')}`} />
-        <link
+        
+        <meta name="theme-color" content="#fff" />
+        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content="/" />
+        <meta
+          property="og:image"
+          content={`${withPrefix('/')}img/og-image.jpg`}
+        />
+       <link
           rel="apple-touch-icon"
           sizes="180x180"
           href={`${withPrefix('/')}img/apple-touch-icon.png`}
@@ -42,21 +51,16 @@ const TemplateWrapper = ({ children }) => {
         <link
           href={`${withPrefix('/')}css/vendor-min.css`}
           type="text/css"
+          rel="stylesheet"
         />
 
        <link
         href={`${withPrefix('/')}css/banqee-min.css`}
         type="text/css"
+        rel="stylesheet"
         />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400,500,700" rel="stylesheet">
 
-        <meta name="theme-color" content="#fff" />
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
-        />
       </Helmet>
       <Navbar />
       <main>
