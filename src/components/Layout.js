@@ -41,12 +41,12 @@ const TemplateWrapper = ({ children }) => {
 
         <link
           href={`${withPrefix('/')}assets/css/vendor-min.css`}
-          type="text/css"
+          type="text/html"
         />
 
        <link
         href={`${withPrefix('/')}assets/css/banqee-min.css`}
-        type="text/css"
+        type="text/html"
         />
 
         <meta name="theme-color" content="#fff" />
