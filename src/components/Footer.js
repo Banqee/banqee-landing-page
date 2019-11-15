@@ -111,31 +111,72 @@ const Footer = class extends React.Component {
       </div>
       </nav>
       </div>
-                  <nav 
-      className="nav justify-content-center justify-content-md-start"
-                   >
-                    <Link to="/" className="nav-item nav-link">
-                        Home
-                      </Link>
-                      <Link className="nav-item nav-link" to="/about">
-                        About
-                      </Link>
-                      <Link className="nav-item nav-link" to="/products">
-                        Products
-                      </Link>
-                      <Link className="nav-item nav-link" to="/contact/examples">
-                       Examples
-                      </Link>
-                      <a
-                        className="nav-item nav-link"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                  </nav>
-              </div>
+    <div 
+    className="col-md-4"
+    >
+    <h6 
+    className="bold"
+    >
+    Subscribe to our newsletter
+    </h6>
+    <p 
+    className="text-secondary"
+    >
+      By registering with us, you will receive right in your inbox all new features and updates. 
+      <span 
+    className="bold"
+    >
+        Subscribe now!
+        </span>
+    </p>
+    <form 
+    action="https://banquee.com/register.php" 
+    className="form" 
+    data-response-message-animation="slide-in-left" 
+    novalidate="novalidate"
+    >
+      <div 
+    className="input-group"
+    >
+      <input 
+    type="email" 
+    name="Subscribe[email]" 
+    className="form-control rounded-circle-left" 
+    placeholder="Enter your email" 
+    required=""
+    >
+      <div 
+    className="input-group-append"
+    >
+      <button 
+    className="btn btn-rounded btn-dark" 
+    type="submit"
+    >
+      Register
+    </button>
+    </div>
+    </div>
+    </form>
+    <div 
+    className="response-message"
+    >
+      <i 
+    className="fas fa-envelope font-lg"
+    >
+    </i>
+    <p 
+    className="font-md m-0"
+    >
+    Check your email
+    </p>
+    <p 
+    className="response"
+    >
+      We sent you an email with a link to get started. You’ll be in your account in no time.
+    </p>
+    </div>
+      </div>
+                
       <hr>
       <nav className="nav small">
       
@@ -160,9 +201,6 @@ const Footer = class extends React.Component {
                         Admin
                       </a>
          </nav>
-      </div>
-
-            </div>
       </div>
       </footer>
     
