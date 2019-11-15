@@ -11,6 +11,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="site-footer section bg-contrast">
+      
       <div className="bg-darker">
           <div className="container text-center py-4">
           <nav className="nav justify-content-center my-4">
@@ -46,22 +47,17 @@ const Footer = class extends React.Component {
 </nav>
       </div>
         </div>
-      <div 
-      className="container py-4"
-      >
-      <div 
-      className="row gap-y"
-      >
-       <div 
-      className="col-md-4"
-      >
+      
+      <div className="container py-4">
+      <div className="row gap-y">
+       <div className="col-md-4">
           <span>
       <img
             src={logo}
             alt="Banqee"
             style={{ width: '14em', height: '10em' }}
           />
-      </span>
+         </span>
           <span>
       <p 
       className="mt-2 mb-0 text-secondary small"
@@ -173,7 +169,8 @@ const Footer = class extends React.Component {
       We sent you an email with a link to get started. You’ll be in your account in no time.
     </p>
     </div>
-                
+    </div>
+    
       <hr />
       <nav className="nav small">
       
