@@ -80,7 +80,9 @@ const Navbar = class extends React.Component {
               Login  
               </span>
               </Link>
-              <Link className="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2" to="/signup">
+              <Link className="btn btn-rounded btn-solid px-3" to="/signup">
+              <i className="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2">
+              </i> 
               <span className="d-md-none d-lg-inline">
                 Get Started
               </span>
@@ -104,26 +106,26 @@ const Navbar = class extends React.Component {
             </Link>
             <div className="st-dropdown-content-group">
             <h4 className="text-uppercase regular">Pages</h4>
-            <Link className="regular text-primary" href="/about">
+            <Link className="regular text-primary" to="/about">
             <i 
              className="far fa-building mr-2"
              >
             </i> 
             About 
             </Link>
-            <Link className="regular text-success" href="/contact">
+            <Link className="regular text-success" to="/contact">
             <i  
             className="far fa-envelope mr-2"
              >
             </i>  
             Contact 
             </Link>
-            <Link className="regular text-warning" href="/pricing">
+            <Link className="regular text-warning" to="/pricing">
             <i className="fas fa-hand-holding-usd mr-2"> 
             </i> 
             Pricing 
             </Link>
-            <Link className="regular text-info" href="/faqs">
+            <Link className="regular text-info" to="/faqs">
             <i className="far fa-question-circle mr-2">
             </i> 
             FAQs
@@ -133,30 +135,30 @@ const Navbar = class extends React.Component {
             <h4 className="text-uppercase regular">Components</h4>
             <div className="row">
             <div className="col mr-4">
-            <Link target="_blank" href="alert">Alerts</Link>
-            <Link target="_blank" href="badge">Badges</Link>
-            <Link target="_blank" href="button">Buttons</Link>
-            <Link target="_blank" href="color">Colors</Link>
-            <Link target="_blank" href="accordion">Accordion</Link>
-            <Link target="_blank" href="cookie-law">Cookielaw</Link>
+            <Link target="_blank" to="alert">Alerts</Link>
+            <Link target="_blank" to="badge">Badges</Link>
+            <Link target="_blank" to="button">Buttons</Link>
+            <Link target="_blank" to="color">Colors</Link>
+            <Link target="_blank" to="accordion">Accordion</Link>
+            <Link target="_blank" to="cookie-law">Cookielaw</Link>
             </div>
             <div className="col mr-4">
-            <Link target="_blank" href="overlay">Overlay</Link>
-            <Link target="_blank" href="components">Progress</Link>
-            <Link target="_blank" href="lightbox">Lightbox</Link>
-            <Link target="_blank" href="tab">Tabs</Link>
-            <Link target="_blank" href="tables">Tables</Link>
-            <Link target="_blank" href="typography">Typography</Link>
+            <Link target="_blank" to="overlay">Overlay</Link>
+            <Link target="_blank" to="components">Progress</Link>
+            <Link target="_blank" to="lightbox">Lightbox</Link>
+            <Link target="_blank" to="tab">Tabs</Link>
+            <Link target="_blank" to="tables">Tables</Link>
+            <Link target="_blank" to="typography">Typography</Link>
             </div>
             </div>
             </div>
             <div className="st-dropdown-content-group bg-light b-t">
-            <Link href="/login">
+            <Link to="/login">
              Signin
             <i className="fas fa-arrow-right">
              </i>
             </Link>
-           <Link href="/signup">
+           <Link to="/signup">
             Get Started
             <i className="fas fa-arrow-right">
              </i>
