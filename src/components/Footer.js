@@ -46,9 +46,15 @@ const Footer = class extends React.Component {
 </nav>
       </div>
         </div>
-      <div className="container py-4">
-      <div className="row gap-y">
-       <div className="col-md-4">
+      <div 
+      className="container py-4"
+      >
+      <div 
+      className="row gap-y"
+      >
+       <div 
+      className="col-md-4"
+      >
           <span>
       <img
             src={logo}
