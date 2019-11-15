@@ -144,25 +144,19 @@ const Footer = class extends React.Component {
       <div 
     className="input-group"
     >
-      <Input 
-    type="email" 
-    name="Subscribe[email]" 
-    className="form-control rounded-circle-left" 
-    placeholder="Enter your email" 
-    required=""
-    >
-      </Input>
-      <div 
-    className="input-group-append"
-    >
-      <button 
-    className="btn btn-rounded btn-dark" 
-    type="submit"
-    >
+     <input
+                      className="input"
+                      type={'email'}
+                      name={'email'}
+                      onChange={this.handleChange}
+                      id={'email'}
+                      required={true}
+                    />
+      <div className="input-group-append">
+    <button className="btn btn-rounded btn-dark" type="submit">
       Register
     </button>
     </div>
-    
     </div>
     </form>
     <div className="response-message">
