@@ -7,7 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
-
+  image,
   title,
   heading,
   subheading,
@@ -15,7 +15,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
+  
   <header 
   className="header app-landing-2-header section"
   >
