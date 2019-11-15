@@ -42,12 +42,12 @@ const TemplateWrapper = ({ children }) => {
     <link
     rel="stylesheet"
     type="text/css"
-    href="https://cdn.banqee.com/assets/css/vendor-min.css"
+    href={`${withPrefix('/')}assets/css/vendor-min.css`}
     >
     <link
     rel="stylesheet"
     type="text/css"
-    href="https://cdn.banqee.com/assets/css/banqee-min.css"
+    href={`${withPrefix('/')}assets/css/banqee-min.css`}
     >
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
