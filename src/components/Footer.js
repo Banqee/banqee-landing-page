@@ -162,14 +162,11 @@ const Footer = class extends React.Component {
       Register
     </button>
     </div>
+    
     </div>
     </form>
-    <div 
-    className="response-message"
-    >
-      <i 
-    className="fas fa-envelope font-lg"
-    >
+    <div className="response-message">
+    <i className="fas fa-envelope font-lg">
     </i>
     <p 
     className="font-md m-0"
