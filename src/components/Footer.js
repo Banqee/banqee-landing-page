@@ -177,7 +177,7 @@ const Footer = class extends React.Component {
     </div>
       </div>
                 
-      <hr>
+      <hr />
       <nav className="nav small">
       
           <Link to="/privacy-policy" className="text-secondary mr-3">
