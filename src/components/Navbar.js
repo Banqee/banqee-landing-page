@@ -48,7 +48,7 @@ const Navbar = class extends React.Component {
           <li className="st-nav-section nav-item"
       >
             <Link to="/" className="navbar-brand" title="banqee">
-              <img src={logo} className="logo logo-sticky d-block d-md-none" alt="Banqee" style={{ width: '120px' }} />
+              <img src={logo} className="logo logo-sticky d-block d-md-none" alt="Banqee" style={{ width: '162px' }} />
             </Link>
             </li>
             
