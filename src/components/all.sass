@@ -62,10 +62,9 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #5533ff
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #5533ff
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -81,6 +80,59 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+.navigation.navbar-sticky .btn-outline:hover
+  -webkit-box-shadow: 0 1px 10px rgba(85, 51, 255, 0.4) !important
+  box-shadow: 0 1px 10px rgba(85, 51, 255, 0.4) !important
+
+.st-nav
+  .st-nav-menu
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    position: relative
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: normal
+    -ms-flex-direction: row
+    flex-direction: row
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-flex: 1
+    -ms-flex: 1
+    flex: 1
+
+ ul
+    padding: 0
+    margin: 0
+
+.navbar-nav
+  position: relative
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+  padding-left: 0
+  margin-bottom: 0
+  list-style: none
+
+.nav
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  padding-left: 0
+  margin-bottom: 0
+  list-style: none  
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
