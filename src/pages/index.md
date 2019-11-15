@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 title: Borderless Banking without a cause
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+image: /img/iphone-display.png
+heading: Easy, fee-free banking for start-ups
+subheading: Get the financial tools and insights to start, build and scale your business.
 mainpitch:
   title: Why Banqee
   description: >
