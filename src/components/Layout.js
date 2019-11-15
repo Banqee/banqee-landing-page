@@ -58,7 +58,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+     <Navbar />
       <main>
       {children}
       <Footer />
@@ -73,7 +73,6 @@ const TemplateWrapper = ({ children }) => {
     src={`${withPrefix('/')}assets/js/banqee.min.js`}
     />
 
-    </div>
   )
 }
 
