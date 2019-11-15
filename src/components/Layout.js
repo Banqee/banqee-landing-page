@@ -42,12 +42,12 @@ const TemplateWrapper = ({ children }) => {
     <link
     rel="stylesheet"
     type="text/css"
-    href="../assets/css/vendor-min.css"
+    href={`${withPrefix('/')}css/vendor-min.css`}
     />
     <link
     rel="stylesheet"
     type="text/css"
-    href="../assets/css/banqee-min.css"
+    href={`${withPrefix('/')}css/banqee-min.css`}
     />
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
@@ -66,11 +66,11 @@ const TemplateWrapper = ({ children }) => {
 
     <script
     type="text/javascript"
-    src="../assets/js/lib.min.js"
+    src={`${withPrefix('/')}js/lib.min.js`}
     />
     <script
     type="text/javascript"
-    src="../assets/js/banqee.min.js"
+    src={`${withPrefix('/')}js/banqee.min.js`}
     />
 
     </div>
