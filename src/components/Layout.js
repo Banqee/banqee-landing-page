@@ -1,8 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import './all.sass'
+import 'bootstrap/dist/css/bootstrap.css'
+import '../css/vendor-min.css'
+import '../css/banqee-min.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
