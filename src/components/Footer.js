@@ -199,9 +199,9 @@ const Footer = class extends React.Component {
                         Admin
                       </a>
          </nav>
-      </div>
-  </footer>
-     </main>
+          </div>
+             </footer>
+             </main>
     
     )
   }
