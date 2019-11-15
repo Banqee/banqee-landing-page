@@ -170,6 +170,7 @@ const Navbar = class extends React.Component {
         </ul>
           </div>
       </nav>
+<main>
     )
   }
 }
