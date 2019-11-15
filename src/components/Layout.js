@@ -1,4 +1,6 @@
 import React from 'react'
+import "./vendor.min.css"
+import "./banqee.min.css"
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
