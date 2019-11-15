@@ -144,13 +144,14 @@ const Footer = class extends React.Component {
       <div 
     className="input-group"
     >
-      <input 
+      <Input 
     type="email" 
     name="Subscribe[email]" 
     className="form-control rounded-circle-left" 
     placeholder="Enter your email" 
     required=""
     >
+      </Input>
       <div 
     className="input-group-append"
     >
