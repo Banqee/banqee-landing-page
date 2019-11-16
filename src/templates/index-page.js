@@ -18,11 +18,11 @@ export const IndexPageTemplate = ({
   
 
   <header className="header app-landing-2-header section">
-  
+    <div className="shapes-container">
   <div className="static-shape background-shape-main"></div>
-  <div className="shapes-container">
+</div>
   <div>
-  <div
+    <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -45,6 +45,9 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -55,6 +58,9 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -64,7 +70,6 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-</div>
 </header>
     <section className="section trending-design section--gradient">
       <div className="container">
