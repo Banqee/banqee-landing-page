@@ -18,12 +18,9 @@ export const IndexPageTemplate = ({
   
 
   <header className="header app-landing-2-header section">
-    <div className="shapes-container">
-  <div className="static-shape background-shape-main"></div>
-</div>
-  <div>
+
     <div
-      className="full-width-image margin-top-0"
+      className="margin-top-0"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
