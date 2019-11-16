@@ -16,52 +16,13 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   
+
   <header className="header app-landing-2-header section">
-  <div className="shapes-container">
-  <div className="shape shape-animated aos-init aos-animate" 
-  data-aos="fade-down-right" 
-  data-aos-duration="1500" 
-  data-aos-delay="100"
-  >
-  </div>
-  <div className="shape shape-animated aos-init aos-animate" 
-  data-aos="fade-down" 
-  data-aos-duration="1000" 
-  data-aos-delay="100"
-  >
-  </div>
- <div className="shape shape-animated aos-init aos-animate" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200"></div>
-<div className="shape shape-animated aos-init" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"></div>
-
-<div className="static-shape pattern-dots-1"></div>
-<div className="static-shape pattern-dots-2"></div>
-<div className="static-shape background-shape-main"></div>
-  </div>
-<div className="container">
-<div className="row align-items-center gap-y">
-<div className="col-md-6">
-<span className="rounded-pill shadow-box bg-contrast text-dark bold py-2 px-4">
-<i className="far fa-lightbulb text-primary mr-2"></i> <span class="text-primary">Awesome</span> Landing Page</span>
-<h1 className="display-4 display-md-2 mt-3"><span class="bold">DashCore</span></h1>
-<p className="lead bold text-primary">Premium Startup &amp;<span className="head-line-2">App Landing Page</span></p>
-<p className="lead">Besides its beautiful design. DashCore is an incredibly rich core framework for you to showcase your App.</p>
-<div className="hero-form shadow-lg">
-
-  </div>
-  </div>
-<div className="col-md-6">
-<div className="iphone-x light front">
-<div className="screen shadow-box">
   
-  </div>
-<div className="notch"></div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </header>
+  <div className="static-shape background-shape-main"></div>
+  <div className="shapes-container">
   <div>
-    <div
+  <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -103,6 +64,10 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
+</div>
+</div>
+</div>
+</header>
     <section className="section trending-design section--gradient">
       <div className="container">
         <div className="section">
