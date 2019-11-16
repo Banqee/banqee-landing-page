@@ -55,7 +55,7 @@ const Footer = class extends React.Component {
       <img
             src={logo}
             alt="Banqee"
-            style={{ width: '14em', height: '10em' }}
+            style={{ width: '7.5em', height: '2.55em' }}
           />
          </span>
           <span>
