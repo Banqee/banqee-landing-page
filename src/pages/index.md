@@ -3,61 +3,42 @@ templateKey: index-page
 title: Borderless Banking without a cause
 image: /img/iphone-display.png
 heading: Easy, fee-free banking for start-ups
-subheading: Get the financial tools and insights to start, build and scale your business.
+subheading: Say goodbye to the hassles of international banking. Get the financial tools and insights to start, build and scale your business. Eliminates unnecessary fees and services to make banking - and your life - easy.
 mainpitch:
   title: Why Banqee
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Manage your money effortlessly, with full transparency and total 
+    confidence knowing that Denizen is backed by a leading global financial institution.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  No international fees, long delays to access money, 
+  or juggling accounts in multiple places. As a company founded by globetrotters, 
+  we understand the complexity of banking across multiple borders.
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Why travel to a bank branch to open an account or transfer money? 
+        Open an account from your phone or computer and manage it entirely online.
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We don’t charge maintenance fees (no matter your balance), 
+        transaction fees (no matter how many you make), or any other fees. Period.
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Your funds are FDIC-insured through our partner bank 
+        (BBVA USA, Member FDIC). We protect your information, 
+        too—all of your data is encrypted and never stored on your devices.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+        You can connect Banqee to popular payment, accounting, 
+        and transfer tools like QuickBooks, PayPal, TransferWise, and thousands more.
+  heading: Send Payments in seconds
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Create personalized digital invoices and request payments anytime, anywhere.
 main:
-  heading: Great coffee with no compromises
+  heading: Get total access and control with the Banqee Visa® debit card
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Easily manage your Banqee debit card by to freeze, block, report, or change the PIN on your card.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
