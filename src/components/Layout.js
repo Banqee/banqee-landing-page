@@ -1,10 +1,10 @@
 import React from 'react'
-import './vendor.min.css'
-import './banqee.min.css'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
+import './vendor.min.css'
+import './banqee.min.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
