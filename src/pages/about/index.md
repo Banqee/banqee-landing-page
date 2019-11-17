@@ -1,19 +1,16 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About Us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### The new way to bank internationally
+We are a company founded by free spirits, inspired to create the first premier global banking experience by the excessive amounts of time and money lost to outdated banking standards. Before Banqee, living or working abroad required juggling bank accounts, paying tons of fees, and planning weeks in advance for the most simplest of financial transactions. We knew it didn’t have to be this way, and decided to act. We created Banqee because managing bank accounts and paying bills between multiple countries is complicated, but managing your finances doesn’t have to be.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Unified account
+Banqee eliminates the stress, hassle and fees of managing bank accounts across countries. By providing our customers with one unified account and a debit card with no FX and bank ATM fees, we make it fast, easy and affordable to get a quick snapshot of your finances and manage money internationally so that you can get back to living an amazing life.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Banqee is based in Manhattan, New York, Merida, Mexico and London, United Kingdom. We’re supported by advisors with countless years of industry experience and by one of the world’s most respected financial institutions, BBVA. Together, we are working to craft creative solutions for our customers.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+For now, we’re in a limited beta, meaning only select customers with bank accounts in UK and the U.S. can open a Banqee account. But we anticipate adding more countries and additional beta users, with a full launch to come later in 2020.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+We look forward to welcoming you as a member to the Banqee family.
