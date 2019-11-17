@@ -12,8 +12,17 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
     
     
     <section className="section overview">
-              <PageContent className="content" content={content} />
-     </section>           
+    <div className="container">
+    <div className="row align-items-center gap-y">
+    <div className="section-heading">
+    <p className="badge badge-success bold">Save with Banqee</p>
+    <h2>{title}</h2>
+    <p className="lead text-secondary">We’re here to simplify banking for freelancers, start-ups, contractors and expats.</p>
+    </div>
+    <PageContent className="content" content={content} />
+    </div>
+    </div>
+    </section>           
   )
 }
 
