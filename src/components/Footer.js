@@ -62,7 +62,7 @@ const Footer = class extends React.Component {
       <p 
       className="mt-2 mb-0 text-secondary small"
       >
-      © 2019 Banqee. All Rights Reserved
+       © {new Date().getFullYear()}, Banqee. All Rights Reserved
       </p>
       </span>
         </div>
