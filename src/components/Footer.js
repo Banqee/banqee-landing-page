@@ -10,9 +10,9 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="site-footer section bg-contrast">
+      <footer className="site-footer bg-dark">
       
-      <div className="bg-darker">
+      <div className="section bg-darker">
           <div className="container text-center py-4">
           <nav className="nav justify-content-center my-4">
         <a title="facebook" href="https://facebook.com">
