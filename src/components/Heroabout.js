@@ -5,9 +5,9 @@ const HeroAbout = class extends React.Component {
   render() {
     return (
 
-    <header className="page header text-contrast overlay alpha-8 image-background cover gradient gradient-purple-blue" 
+    <Header className="page header text-contrast overlay alpha-8 image-background cover gradient gradient-purple-blue" 
     style="background-image: url('{waves}')
-    ">
+    " />
     <div className="divider-shape">
     <svg xmlns="http://www.w3.org/2000/svg" 
     viewBox="0 0 1000 100"
@@ -28,7 +28,6 @@ const HeroAbout = class extends React.Component {
     </div>
     </div>
     </div>
-    </header>
     
     )
   }
