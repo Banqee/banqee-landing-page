@@ -27,27 +27,16 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
     <div className="container" style="">
     <div className="row">
     <div className="col-md-6">
-    <h1 className="regular display-4 text-contrast mb-4">About Us</h1>
-    <p className="lead text-contrast">Banqee is an all included financial assistant and is packed with services that you will use everyday to help you take control of your finances.</p>
+    <h1 className="regular display-4 text-contrast mb-4">{title}</h1>
+    <p className="lead text-contrast">Banqee is an all inclusive financial assistant and is packed with services that you will use everyday to help you take control of your finances.</p>
     </div>
     </div>
     </div>
     </header>
     
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
+    <section className="section overview">
               <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+     </section>           
   )
 }
 
