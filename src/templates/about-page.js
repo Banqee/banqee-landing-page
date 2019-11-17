@@ -9,8 +9,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    
-    
+   <HeroAbout />
     <section className="section overview">
     <div className="container">
     <div className="row align-items-center gap-y">
