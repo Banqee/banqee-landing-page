@@ -16,6 +16,13 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+  <header 
+      className="header app-landing-2-header section"
+    >
+  <div 
+     className="shapes-container"
+    >
+  
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -63,6 +70,8 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
+    </div>
+    </header>
     </div>
     <section className="section trending-design section--gradient">
       <div className="container">
