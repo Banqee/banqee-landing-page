@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import get from 'lodash/get'
 
 export const IndexPageTemplate = ({
   image,
